@@ -1,0 +1,1 @@
+console.log(chalk.blue('Team Pushers :')+ chalk.grey('Martin')+ chalk.pink('Emilie')+ chalk.red('Ludovic')+ chalk.purple('Axel') +chalk.green('Aurelie'))
