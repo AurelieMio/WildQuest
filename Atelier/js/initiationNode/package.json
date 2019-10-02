@@ -1,5 +1,5 @@
 {
-  "name": "initiationNode",
+  "name": "initiationnode",
   "version": "1.0.0",
   "description": "ceci est un atelier long et chiant",
   "main": "Node.js",
@@ -11,5 +11,5 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.2"
-  },
+  }
 }
