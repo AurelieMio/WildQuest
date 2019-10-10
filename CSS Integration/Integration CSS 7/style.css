@@ -16,7 +16,7 @@ nav u li:hover{
     background-color: #929292
 }
 h2{
-    font-size: 18px;
+    font-size: 1.5em;
     margin: 10px;
 
 }
@@ -26,10 +26,10 @@ h2{
     background-color: #929292
 }
 
-#fellows p{
-    font-size: 12px;
+span{
+    font-size: 1em;
 }
-#fellows h2, p{
+#fellows h2{
     text-align: center;
 }
 
@@ -40,14 +40,16 @@ h2{
 }
 .elfe article{
     display: flex;
-    flex-direction:column;  
+    flex-direction:row;  
     margin: 0 auto;
     width: 80%;
     height: 200px;
     padding-bottom:15px;
     text-align:center;
-
-
+    align-self: center
+}
+.elfe img{
+    margin: 0 auto;
 }
 form input, form textarea{
     width:50%;
@@ -60,15 +62,24 @@ form input, form textarea{
 
 
 
-    @media (min-width: 961px){
+    @media (max-width: 961px){
         .elfe article{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                width: 100%;
-        }
-        .elfe img {width: 50%}
+                display: none;
 
+        }
+        .carousel{
+            display: none;
+        }
+        h2 {
+            font-size: 2em;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+        form h2{
+            margin-bottom:10px;
+            
+        }
 
 
 
