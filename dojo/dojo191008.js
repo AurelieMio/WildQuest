@@ -4,16 +4,6 @@ letters = ["a","b","c","d","e","f","g","h"]
 //     for (let i=1; i<9; i++){
 //          `${letter} - ${i}`
 //     }})
-const na4= [
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-]
 // letters.map((letter, j) => {
     //     newArray2[j] = new Array(8);
     //     j++;
