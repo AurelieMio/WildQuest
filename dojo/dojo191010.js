@@ -43,3 +43,22 @@ const filterDIY = (array, cb) => {
 cb = (item) => item < 20
 
 console.log(filterDIY(array, cb))
+
+// TRANSFORMATION : remplacer chaque appel de l'array par this!!! Fonction sous forme de fonction classique non fléchée
+
+let array3=[]
+Array.prototype.filterDIY = function(cb){
+    let h=0
+    for (let j=0; j<this.length; j++){
+        if (cb(this[j])=== true ){
+            array3[h] = this[j]
+            h++
+            console.log(this[j])
+        } else {
+        }
+    }
+    return array3
+}
+
+array.filterDIY(cb)
+console.log(array3)
